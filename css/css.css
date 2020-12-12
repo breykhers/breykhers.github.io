@@ -3,3 +3,33 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    font-size: 73%;
+    background: cornflowerblue;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 5rem;
+    font-size: 1.6rem;
+    background: rgb(112, 10, 10);
+    color: white;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    margin: 0 1rem;
+    border-bottom: white solid 0.3rem;
+}
